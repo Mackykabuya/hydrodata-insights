@@ -17,7 +17,7 @@ rng = np.random.default_rng(SEED)
 
 # Paramètres généraux
 DATE_DEBUT = "2023-01-01"
-DATE_FIN = "2025-12-31"
+DATE_FIN = "2028-12-31"
 FICHIER_SORTIE = "donnees_consommation_eau.csv"
 
 # Caractéristiques propres à chaque zone
