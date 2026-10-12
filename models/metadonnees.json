@@ -1,0 +1,47 @@
+{
+  "metriques": {
+    "RMSE": 1553.3921530120926,
+    "MAE": 1201.252782121091,
+    "R2": 0.9837874157149177
+  },
+  "colonnes_numeriques": [
+    "temperature_moy",
+    "precipitations_mm",
+    "population_estimee",
+    "taux_couverture_reseau",
+    "est_jour_ferie",
+    "pression_moyenne_bar",
+    "mois",
+    "jour_semaine"
+  ],
+  "colonnes_categorielles": [
+    "region",
+    "saison"
+  ],
+  "defauts_par_region": {
+    "Zone Est": {
+      "population_estimee": 1642345,
+      "taux_couverture_reseau": 71.6,
+      "pression_moyenne_bar": 2.6070164233576643,
+      "capacite_reseau_m3": 75841.42125
+    },
+    "Zone Nord": {
+      "population_estimee": 1278211,
+      "taux_couverture_reseau": 85.7,
+      "pression_moyenne_bar": 3.2150638686131385,
+      "capacite_reseau_m3": 72550.51125000001
+    },
+    "Zone Ouest": {
+      "population_estimee": 730791,
+      "taux_couverture_reseau": 91.5,
+      "pression_moyenne_bar": 3.5065419708029197,
+      "capacite_reseau_m3": 45103.957500000004
+    },
+    "Zone Sud": {
+      "population_estimee": 950595,
+      "taux_couverture_reseau": 77.8,
+      "pression_moyenne_bar": 2.891450729927007,
+      "capacite_reseau_m3": 48530.97375
+    }
+  }
+}

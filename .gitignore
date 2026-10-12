@@ -1,0 +1,26 @@
+# Environnement virtuel
+venv/
+.venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Fichiers d'IDE et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets et données utilisateurs locales
+.env
+.streamlit/secrets.toml
+users.json
+
+# Notebooks
+.ipynb_checkpoints/
+
+# NB : models/ et donnees_consommation_eau.csv sont VOLONTAIREMENT versionnés
+# afin que Streamlit Community Cloud puisse les utiliser au déploiement.
